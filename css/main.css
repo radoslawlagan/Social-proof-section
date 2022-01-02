@@ -223,6 +223,9 @@ body {
     padding: 2em 2em;
     margin-inline: 1em;
   }
+  .reviews .review:nth-child(1) {
+    margin-top: 0em;
+  }
   .reviews .review:nth-child(2) {
     margin-top: 3em;
   }
