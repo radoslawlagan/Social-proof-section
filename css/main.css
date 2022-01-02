@@ -84,16 +84,16 @@ body {
   border-radius: 50%;
 }
 
-.reviews .review__person__name {
+.reviews .review__person__info {
   margin-left: 0.5em;
   line-height: 1.5;
 }
 
-.reviews .review__person__name .name {
+.reviews .review__person__info .name {
   font-weight: 700;
 }
 
-.reviews .review__person__name .buyer {
+.reviews .review__person__info .buyer {
   color: #937b92;
 }
 
@@ -108,13 +108,13 @@ body {
   color: #502050;
 }
 
-.attribution a {
+.attribution__link {
   text-decoration: none;
   color: #502050;
   font-weight: 500;
 }
 
-.attribution a:hover {
+.attribution__link:hover {
   text-decoration: underline;
 }
 

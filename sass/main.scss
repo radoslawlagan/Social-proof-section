@@ -76,7 +76,7 @@ body {
 				border-radius: 50%;
 			}
 
-			&__name {
+			&__info {
 				margin-left: 0.5em;
 				line-height: 1.5;
 
@@ -101,7 +101,7 @@ body {
 	text-align: center;
 	color: $very-dark-magenta;
 
-	a {
+	&__link {
 		text-decoration: none;
 		color: $very-dark-magenta;
 		font-weight: 500;
