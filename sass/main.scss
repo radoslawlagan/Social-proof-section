@@ -43,6 +43,7 @@ body {
 		margin: 1em auto;
 		padding: 0.8em 0.8em;
 		max-width: 370px;
+		min-width: 200px;
 		background-color: $light-grayish-magenta;
 		border-radius: 10px;
 		text-align: center;
@@ -63,6 +64,7 @@ body {
 		margin: 1em auto;
 		padding: 1.5em 2em;
 		max-width: 370px;
+		min-width: 200px;
 		border-radius: 10px;
 		background-color: $very-dark-magenta;
 		color: $white;
@@ -71,12 +73,12 @@ body {
 			display: flex;
 			align-items: center;
 
-			&__img {
+			&-img {
 				transform: scale(0.6);
 				border-radius: 50%;
 			}
 
-			&__info {
+			&-info {
 				margin-left: 0.5em;
 				line-height: 1.5;
 
@@ -129,11 +131,11 @@ body {
 	.wrapper-top {
 		margin: 0 auto;
 		padding: 1em;
+		width: 90vw;
+		max-width: 1250px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		width: 90vw;
-		max-width: 1250px;
 	}
 
 	.header {
@@ -191,11 +193,11 @@ body {
 	.reviews {
 		margin: 0 auto;
 		padding: 0 0;
+		width: 90vw;
+		max-width: 1250px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		width: 90vw;
-		max-width: 1250px;
 
 		.review {
 			padding: 2em 2em;

@@ -43,6 +43,7 @@ body {
   margin: 1em auto;
   padding: 0.8em 0.8em;
   max-width: 370px;
+  min-width: 200px;
   background-color: #f7f2f7;
   border-radius: 10px;
   text-align: center;
@@ -64,6 +65,7 @@ body {
   margin: 1em auto;
   padding: 1.5em 2em;
   max-width: 370px;
+  min-width: 200px;
   border-radius: 10px;
   background-color: #502050;
   color: white;
@@ -78,22 +80,22 @@ body {
           align-items: center;
 }
 
-.reviews .review__person__img {
+.reviews .review__person-img {
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
   border-radius: 50%;
 }
 
-.reviews .review__person__info {
+.reviews .review__person-info {
   margin-left: 0.5em;
   line-height: 1.5;
 }
 
-.reviews .review__person__info .name {
+.reviews .review__person-info .name {
   font-weight: 700;
 }
 
-.reviews .review__person__info .buyer {
+.reviews .review__person-info .buyer {
   color: #937b92;
 }
 
@@ -142,6 +144,8 @@ body {
   .wrapper-top {
     margin: 0 auto;
     padding: 1em;
+    width: 90vw;
+    max-width: 1250px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -151,8 +155,6 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 90vw;
-    max-width: 1250px;
   }
   .header {
     padding: 0 0em;
@@ -207,6 +209,8 @@ body {
   .reviews {
     margin: 0 auto;
     padding: 0 0;
+    width: 90vw;
+    max-width: 1250px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -216,8 +220,6 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 90vw;
-    max-width: 1250px;
   }
   .reviews .review {
     padding: 2em 2em;
